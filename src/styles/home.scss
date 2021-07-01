@@ -1,0 +1,12 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+  .bg-video {
+    width: 100vw;
+    size: cover;
+    position: fixed;
+    top: 0;
+  }
+}

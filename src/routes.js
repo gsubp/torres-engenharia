@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Contato from "./pages/Contato";
 import Home from "./pages/Home";
 import QuemSomos from "./pages/QuemSomos";
-import Contato from "./pages/Contato";
 import Servicos from "./pages/Servicos";
 import Arquitetonico from "./pages/Servicos/arquitetonico";
 
