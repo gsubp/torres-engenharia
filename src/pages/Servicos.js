@@ -1,11 +1,14 @@
 import React from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import arquitetonicoImg from "../images/arquitetonico.png";
 import eletricoImg from "../images/eletrico.png";
 import estruturalImg from "../images/estrutural.png";
+import gerenciamentoImg from "../images/gerenciamento.png";
 import incendioImg from "../images/incendio.png";
+import laudoImg from "../images/laudo.png";
+import orcamentoImg from "../images/orcamento.png";
 import sanitarioImg from "../images/sanitario.png";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import "../styles/servicos.scss";
 
 export default function Servicos() {
@@ -70,6 +73,38 @@ export default function Servicos() {
               concepção de toda a distribuição de água fria, água quente,
               esgoto, água pluvial, caixas de gordura e sistema de ventilação da
               edificação.
+            </p>
+          </div>
+        </div>
+        <div className="item-servico">
+          <img src={gerenciamentoImg} alt="" />
+          <div className="item-servico-desc">
+            <h2>Gerenciamento</h2>
+            <p>
+              Compreende habilidades e técnicas necessárias para se organizar
+              atividades em prol de um objetivo previamente definido.
+            </p>
+          </div>
+        </div>
+        <div className="item-servico">
+          <img src={laudoImg} alt="" />
+          <div className="item-servico-desc">
+            <h2>Laudo Técnico</h2>
+            <p>
+              Um documento que explica indiretamente os direitos e obrigações
+              das partes de um projeto de engenharia civil após a conclusão do
+              projeto.
+            </p>
+          </div>
+        </div>
+        <div className="item-servico">
+          <img src={orcamentoImg} alt="" />
+          <div className="item-servico-desc">
+            <h2>Orçamento</h2>
+            <p>
+              Faz parte do plano financeiro estratégico e inclui a previsão de
+              receitas e despesas futuras administradas em um determinado
+              serviço.
             </p>
           </div>
         </div>
