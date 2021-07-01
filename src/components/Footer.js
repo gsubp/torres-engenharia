@@ -1,11 +1,10 @@
 import React from "react";
-import "./styles.css";
 import { Link } from "react-router-dom";
-import whatsappIcon from "../../images/whatsapp.svg";
-import instagramIcon from "../../images/instagram.svg";
-import mailIcon from "../../images/mail.svg";
-import mapIcon from "../../images/map.svg";
-import Logo from "../../images/logo-full.png";
+import instagramIcon from "../images/instagram.svg";
+import Logo from "../images/logo-full.png";
+import mailIcon from "../images/mail.svg";
+import whatsappIcon from "../images/whatsapp.svg";
+import "../styles/footer.scss";
 export default function Footer() {
   return (
     <footer>
@@ -13,22 +12,22 @@ export default function Footer() {
         <div className="footer-social">
           <ul>
             <li>
-              <Link href="">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link href="">Quem Somos</Link>
+              <Link to="/quem-somos">Quem Somos</Link>
             </li>
             <li>
-              <Link href="">Soluções</Link>
+              <Link to="/servicos">Serviços</Link>
             </li>
             <li>
-              <Link href="">Portfólio</Link>
+              <Link to="/solucos">Soluções</Link>
             </li>
             <li>
-              <Link href="">Cursos</Link>
+              <Link to="/portfolio">Portfólio</Link>
             </li>
             <li>
-              <Link href="">Contato</Link>
+              <Link to="/contato">Contato</Link>
             </li>
           </ul>
           <Link>

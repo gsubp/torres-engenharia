@@ -5,13 +5,13 @@ footer {
   flex-direction: column;
   justify-content: flex-start;
   border-top: 1px solid #fefefe;
-}
 
-footer .row-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  .row-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .footer-social img {

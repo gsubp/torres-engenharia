@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import Social from "../components/Social";
+import Social from "../components/FloatSocial";
 import Video from "../images/video.mp4";
 import "../styles/home.scss";
 
