@@ -1,8 +1,8 @@
 import React from "react";
-import Instagram from "../images/instagram.svg";
-import Mail from "../images/mail.svg";
-import Map from "../images/map.svg";
-import Whatsapp from "../images/whatsapp.svg";
+import Instagram from "../assets/instagram.svg";
+import Mail from "../assets/mail.svg";
+import Map from "../assets/map.svg";
+import Whatsapp from "../assets/whatsapp.svg";
 import "../styles/float-social.scss";
 
 export default function Social() {

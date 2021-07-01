@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
 import Favicon from "react-favicon";
-import ico from "./images/favicon.ico";
-import Footer from "./components/Footer";
+import App from "./App";
+import ico from "./assets/favicon.ico";
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import instagramIcon from "../images/instagram.svg";
-import Logo from "../images/logo-full.png";
-import mailIcon from "../images/mail.svg";
-import whatsappIcon from "../images/whatsapp.svg";
+import instagramIcon from "../assets/instagram.svg";
+import Logo from "../assets/logo-full.png";
+import mailIcon from "../assets/mail.svg";
+import whatsappIcon from "../assets/whatsapp.svg";
 import "../styles/footer.scss";
 export default function Footer() {
   return (
@@ -64,12 +64,10 @@ export default function Footer() {
       </div>
 
       <div className="hps">
-        <span>
-          Desenvolvido por{" "}
-          <Link href="https://www.instagram.com/hps.solucoes">
-            HPS SOLUÇÔES DIGITAIS
-          </Link>
-        </span>
+        <span>Desenvolvido por</span>
+        <a href="https://www.instagram.com/hps.solucoes">
+          HPS SOLUÇÕES DIGITAIS
+        </a>
       </div>
     </footer>
   );

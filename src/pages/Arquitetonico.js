@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles.css";
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
+import "../styles/projeto.scss";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Arquitetonico() {
   return (

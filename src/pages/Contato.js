@@ -1,14 +1,14 @@
 import React from "react";
-import "./styles.css";
-import Footer from "../../components/Footer";
-import mapIcon from "../../images/map.svg";
-import mailIcon from "../../images/mail.svg";
-import instagramIcon from "../../images/instagram.svg";
-import whatsappIcon from "../../images/whatsapp.svg";
+import instagramIcon from "../assets/instagram.svg";
+import mailIcon from "../assets/mail.svg";
+import mapIcon from "../assets/map.svg";
+import whatsappIcon from "../assets/whatsapp.svg";
+import Footer from "../components/Footer";
+import "../styles/contato.scss";
 export default function Contato() {
   return (
     <div className="container">
-      <section className="contato">
+      <main className="contato">
         <div className="contato-info">
           <div className="contato-text-header">
             <h1>FALE CONOSCO</h1>
@@ -21,14 +21,12 @@ export default function Contato() {
             <li>
               <a href="https://goo.gl/maps/ZVWxDLNoq33KHskv6" target="_blank">
                 <img src={mapIcon} />
-                <p>
-                  Rua Antônio Luiz de Sá, 400,
-                  <br />
-                  Tancreado Neves, Serra Talhada - PE
-                  <br />
-                  56909-085
-                  <br />
-                </p>
+                Rua Antônio Luiz de Sá, 400,
+                <br />
+                Tancreado Neves, Serra Talhada - PE
+                <br />
+                56909-085
+                <br />
               </a>
             </li>
             <li>
@@ -37,13 +35,13 @@ export default function Contato() {
                 target="_black"
               >
                 <img src={whatsappIcon} />
-                <p>87 99807-3764</p>
+                87 99807-3764
               </a>
             </li>
             <li>
               <a href="mailto:contato@torresengenharia.com" target="_black">
                 <img src={mailIcon} />
-                <p>contato@torresengenharia.com</p>
+                contato@torresengenharia.com
               </a>
             </li>
             <li>
@@ -52,7 +50,7 @@ export default function Contato() {
                 target="_black"
               >
                 <img src={instagramIcon} />
-                <p>@torresengenharialtda</p>
+                @torresengenharialtda
               </a>
             </li>
           </ul>
@@ -67,7 +65,7 @@ export default function Contato() {
             <button className="btn-dark">ENVIAR</button>
           </form>
         </div>
-      </section>
+      </main>
       <Footer />
     </div>
   );

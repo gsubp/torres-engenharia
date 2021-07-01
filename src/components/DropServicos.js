@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ChevronDown from "../images/chevron-down.svg";
+import ChevronDown from "../assets/chevron-down.svg";
 import "../styles/dropdown.scss";
 
 export default function Dropdown() {

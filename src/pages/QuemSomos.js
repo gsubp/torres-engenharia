@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles.css";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import "../styles/quem-somos.scss";
 
 export default function QuemSomos() {
   return (
@@ -18,8 +18,8 @@ export default function QuemSomos() {
           sócios na execução do trabalho e na compreensão dos clientes.
         </p>
       </section>
-      <div className="row">
-        <section className="missao">
+      <main className="main-content">
+        <article className="missao">
           <h1>Missão</h1>
           <p>
             Com uma atitude séria, objetiva e dedicada, oferecemos soluções
@@ -28,8 +28,8 @@ export default function QuemSomos() {
             as soluções mais viáveis ​​e econômicas, e estamos sempre em busca
             de atualização tecnológica.
           </p>
-        </section>
-        <section className="visao">
+        </article>
+        <article className="visao">
           <h1>Visão</h1>
           <p>
             Tornar-se referência de mercado em tecnologia, competência, ética e
@@ -37,11 +37,11 @@ export default function QuemSomos() {
             realizar inovações criativas em todos os ramos da construção civil e
             consolidar sua imagem forte e única de marca.
           </p>
-        </section>
-      </div>
-      <section className="valores">
+        </article>
+      </main>
+      <article className="valores">
         <h1>Valores</h1>
-        <div className="grid">
+        <div className="valor-grid">
           <div className="item-valor">
             <h2>Ética e Transparência</h2>
             <p>
@@ -74,7 +74,7 @@ export default function QuemSomos() {
             </p>
           </div>
         </div>
-      </section>
+      </article>
       <Footer />
     </div>
   );

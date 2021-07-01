@@ -4,7 +4,7 @@ import Contato from "./pages/Contato";
 import Home from "./pages/Home";
 import QuemSomos from "./pages/QuemSomos";
 import Servicos from "./pages/Servicos";
-import Arquitetonico from "./pages/Servicos/arquitetonico";
+import Arquitetonico from "./pages/Arquitetonico";
 
 export default function Routes() {
   return (
