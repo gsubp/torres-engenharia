@@ -1,0 +1,70 @@
+.sobre {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #00008b;
+  padding-top: 140px;
+  padding-bottom: 4rem;
+}
+
+.sobre h1 {
+  color: #fefefe;
+  margin-bottom: 2rem;
+}
+
+.sobre p {
+  color: #e8e8e8;
+  width: 50vw;
+  line-height: 2rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+.row h1 {
+  width: 100%;
+  border-bottom: 2px solid #00008b;
+}
+
+.row p {
+  width: 40vw;
+  margin-top: 0.85rem;
+}
+
+.valores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.valores h1 {
+  border-bottom: 2px solid #00008b;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.valores .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.valores .grid .item-valor h2 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.valores .grid .item-valor p {
+  font-size: 0.85rem;
+}

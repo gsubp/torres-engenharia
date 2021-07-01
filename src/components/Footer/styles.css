@@ -1,0 +1,124 @@
+footer {
+  background-color: #00008b;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-top: 1px solid #fefefe;
+}
+
+footer .row-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-social img {
+  width: 120px;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.footer-social ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 0.75rem;
+}
+
+.footer-social ul li a {
+  color: #fefefe;
+  font-size: 0.75rem;
+}
+
+.footer-social ul li + li {
+  margin-left: 0.5rem;
+  border-left: 1px solid white;
+  padding-left: 0.5rem;
+}
+
+.footer-social p {
+  color: #fefefe;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons a img {
+  filter: invert(100%) sepia(0%) saturate(4911%) hue-rotate(124deg)
+    brightness(122%) contrast(110%);
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-right: 0.75rem;
+}
+
+.row-footer .footer-func {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-func p {
+  color: #fefefe;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.footer-func span {
+  color: #e8e8e8;
+  margin-bottom: 0.125rem;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.footer-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-contato p {
+  color: #fefefe;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.25rem;
+}
+
+.footer-contato a {
+  color: #e8e8e8;
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+  margin-bottom: 0.125rem;
+}
+
+.hps {
+  text-align: center;
+  padding: 1rem;
+  background-color: #00008b;
+  border-top: 1px solid #fefefe;
+  pad: 1rem;
+}
+
+.hps span {
+  color: #fefefe71;
+  font-size: 0.75rem;
+}
+
+.hps span a {
+  text-decoration: none;
+  color: #fefefe;
+  font-weight: 700;
+}
