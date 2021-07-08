@@ -2,14 +2,19 @@ import React from "react";
 import "../styles/projeto.scss";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import arqImg from "../images/arquitetonico (4).jpg";
+import arqIcon from "../images/arquitetonico.png";
 
 export default function Arquitetonico() {
   return (
     <div className="container">
       <Header />
-      <section className="projeto">
-        <div className="projeto-descricao">
-          <h1>Projeto Arquitetônico</h1>
+      <section className="projeto-section">
+        <img src={arqIcon} alt="" />
+        <h1>Projeto Arquitetônico</h1>
+      </section>
+      <main className="projeto-main">
+        <article>
           <p>
             É caracterizado por uma representação gráfica ou escrita dos
             conceitos previstos nas obras arquitetônicas, portanto, antecede
@@ -18,10 +23,10 @@ export default function Arquitetonico() {
             execução e promovê-la, o que é fundamental para garantir a qualidade
             do trabalho.
           </p>
-          <button className="btn-light">SOLICITE SEU ORÇAMENTO</button>
-        </div>
-        <div className="projeto-img"></div>
-      </section>
+          <img src={arqImg} alt="" />
+        </article>
+        <button className="btn">SOLICITE SEU ORÇAMENTO</button>
+      </main>
       <Footer />
     </div>
   );

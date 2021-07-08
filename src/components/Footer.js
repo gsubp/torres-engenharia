@@ -30,7 +30,7 @@ export default function Footer() {
               <Link to="/contato">Contato</Link>
             </li>
           </ul>
-          <Link>
+          <Link to="/">
             <img src={Logo} alt="" />
           </Link>
           <p>
@@ -50,15 +50,15 @@ export default function Footer() {
         <div className="footer-contato">
           <p>Entre em Contato!</p>
           <div className="footer-icons">
-            <Link href="">
+            <a href="">
               <img src={whatsappIcon} alt="" />
-            </Link>
-            <Link href="">
+            </a>
+            <a href="">
               <img src={mailIcon} alt="" />
-            </Link>
-            <Link href="">
+            </a>
+            <a href="">
               <img src={instagramIcon} alt="" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

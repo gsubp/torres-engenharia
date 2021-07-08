@@ -15,14 +15,16 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
   }
 
   h2 {
     font-family: "Raleway", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 500;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
   }
 
   p,
@@ -43,14 +45,18 @@ body {
   }
 }
 
-.btn-dark {
-  color: #fefefe;
-  background-color: #00008b;
+.btn {
+  color: #00008b;
+  background-color: none;
+  border: 2px solid #00008b;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  padding: 0.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-.btn-light {
-  background-color: #fefefe;
-  color: #00008b;
-  box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.75);
+.btn:hover {
+  color: #fefefe;
+  background-color: #00008b;
+  transition: ease all 0.35s;
 }

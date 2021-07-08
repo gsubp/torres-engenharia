@@ -9,4 +9,11 @@
     position: fixed;
     top: 0;
   }
+
+  > img {
+    position: absolute;
+    height: 50vh;
+    right: 20%;
+    top: 25%;
+  }
 }

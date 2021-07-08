@@ -62,7 +62,7 @@ export default function Contato() {
             <input type="text" placeholder="Telefone" />
             <input type="text" placeholder="E-mail" />
             <textarea type="text" placeholder="Mensagem" />
-            <button className="btn-dark">ENVIAR</button>
+            <button className="btn">ENVIAR</button>
           </form>
         </div>
       </main>
