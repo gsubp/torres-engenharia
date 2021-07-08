@@ -23,9 +23,10 @@
 }
 
 .main-content {
+  width: 100vw;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 2rem;
 
@@ -41,13 +42,23 @@
   }
 }
 
+.article-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  .missao {
+    margin-right: 2rem;
+  }
+}
+
 .valores {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0 5.85rem;
-  padding-bottom: 2rem;
 
   h1 {
     border-bottom: 2px solid #00008b;

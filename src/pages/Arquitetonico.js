@@ -23,9 +23,9 @@ export default function Arquitetonico() {
             execução e promovê-la, o que é fundamental para garantir a qualidade
             do trabalho.
           </p>
-          <img src={arqImg} alt="" />
+          <button className="btn">SOLICITE SEU ORÇAMENTO</button>
         </article>
-        <button className="btn">SOLICITE SEU ORÇAMENTO</button>
+        <img src={arqImg} alt="" />
       </main>
       <Footer />
     </div>
