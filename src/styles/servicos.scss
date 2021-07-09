@@ -23,26 +23,32 @@
   gap: 2rem;
   width: 100vw;
   padding: 4rem;
+  max-width: 1360px;
 
   .item-servico {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 100%;
 
     img {
-      width: 8rem;
+      height: 6rem;
+      border-radius: 100px;
     }
     .item-servico-desc {
       height: 100%;
-      margin-left: 0.5rem;
+      width: 100%;
+      margin-left: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
       h2 {
         font-weight: 700;
         font-size: 1.45rem;
-        border-bottom: 2px solid #00008b;
         width: 100%;
-        margin-bottom: 0.75rem;
-        padding-bottom: 0.25rem;
+        margin-bottom: 0.8rem;
       }
       p {
         font-weight: 400;

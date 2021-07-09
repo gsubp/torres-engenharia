@@ -29,5 +29,12 @@ header {
       font-weight: 700;
       margin-right: 2rem;
     }
+    a:hover {
+      background-color: #fefefe;
+      padding: 0.75rem;
+      color: #00008b;
+      transition: all ease-in 0.35s;
+      font-size: 1.25rem;
+    }
   }
 }

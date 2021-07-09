@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import QuemSomos from "./pages/QuemSomos";
 import Servicos from "./pages/Servicos";
 import Arquitetonico from "./pages/Arquitetonico";
+import Eletrico from "./pages/Eletrico";
 
 export default function Routes() {
   return (
@@ -15,6 +16,7 @@ export default function Routes() {
         <Route path="/contato" exact component={Contato} />
         <Route path="/servicos" exact component={Servicos} />
         <Route path="/servicos/arquitetonico" exact component={Arquitetonico} />
+        <Route path="/servicos/eletrico" exact component={Eletrico} />
       </Switch>
     </BrowserRouter>
   );
