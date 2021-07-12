@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/projeto.scss";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import acompanhamentoImg from "../assets/acompanhamento-img.png";
+import orcamentoImg from "../assets/orcamento-img.png";
 import orcamentoIcon from "../images/orcamento.png";
 
 export default function Orcamento() {
@@ -15,7 +15,7 @@ export default function Orcamento() {
       </section>
       <main className="projeto-main">
         <article>
-          <img src={acompanhamentoImg} alt="Orçamento" />
+          <img src={orcamentoImg} alt="Orçamento" />
           <p>
             Faz parte do plano financeiro estratégico e inclui a previsão de
             receitas e despesas futuras administradas em um determinado serviço.

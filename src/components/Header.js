@@ -15,7 +15,7 @@ export default function Header() {
         <Link to="/">Home</Link>
         <Link to="/quem-somos">Quem Somos</Link>
         <Dropdown />
-        <DropdownSolucoes />
+        {/* <DropdownSolucoes /> */}
         <Link to="/contato">Contato</Link>
       </nav>
     </header>
