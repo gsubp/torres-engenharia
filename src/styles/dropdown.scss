@@ -18,6 +18,24 @@
       margin-left: -2rem;
     }
   }
+
+  .dropbtn:hover {
+    background-color: #fefefe;
+    padding: 0.75rem;
+    color: #00008b;
+    transition: all ease-in 0.35s;
+
+    a {
+      color: #00008b;
+      font-size: 1.25rem;
+      transition: all ease-in 0.35s;
+    }
+
+    img {
+      filter: invert(17%) sepia(37%) saturate(6620%) hue-rotate(237deg)
+        brightness(67%) contrast(140%);
+    }
+  }
 }
 
 .dropdown-content {

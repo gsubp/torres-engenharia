@@ -9,7 +9,14 @@ export default function Home() {
   return (
     <main className="home">
       <Header />
-      <video className="bg-video" loop={true} muted={true} autoPlay={true}>
+      <video
+        className="bg-video"
+        loop={true}
+        muted={true}
+        autoPlay={true}
+        controlsList="nodownload"
+        disablePictureInPicture={true}
+      >
         <source src={Video2} type="video/mp4" />
       </video>
       <img src={logoAltImg} alt="Torres Engenharia" />

@@ -2,12 +2,12 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  padding: 2rem;
+  padding: 32px 48px;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.45) 0%,
@@ -29,7 +29,7 @@ header {
       font-weight: 700;
       margin-right: 2rem;
     }
-    a:hover {
+    > a:hover {
       background-color: #fefefe;
       padding: 0.75rem;
       color: #00008b;

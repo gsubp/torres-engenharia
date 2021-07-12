@@ -23,10 +23,26 @@ export default function Eletrico() {
             diagramas elétricos, planilhas de dados, layouts, desenhos técnicos
             de peças ou equipamentos, listas de componentes instalados e outros.
           </p>
-          <button className="btn">Solicite seu Orçamento</button>
         </article>
         <img src={eletImg} alt="" />
       </main>
+      <h2>A Entrega desse projeto inclui:</h2>
+      <div className="projeto-desc">
+        <div className="projeto-desc-item">
+          <ul>
+            <li>Quadro de Cargas</li>
+            <li>Modelo 3D</li>
+            <li>Modelo Descritivo</li>
+            <li>Detalhe de Quadros</li>
+            <li>Diagrama unifilar e Cálculo de demanda</li>
+            <li>
+              Planta Baixa com Detalhamentos e Esquemas com Componentes
+              Elétricos
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button className="btn">Solicite seu Orçamento</button>
       <Footer />
     </div>
   );

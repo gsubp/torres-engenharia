@@ -22,6 +22,14 @@ body {
   h2 {
     font-family: "Raleway", sans-serif;
     font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.05rem;
     font-weight: 500;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -30,29 +38,29 @@ body {
   p,
   a,
   span,
-  strong {
+  strong,
+  li {
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 2px;
   }
-
-  button {
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding: 0.5rem;
-    border: none;
-  }
 }
 
 .btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+  border: none;
   color: #00008b;
-  background-color: none;
+  background-color: #fefefe;
   border: 2px solid #00008b;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
-  padding: 0.5rem;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .btn:hover {

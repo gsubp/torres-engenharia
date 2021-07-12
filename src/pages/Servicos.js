@@ -48,7 +48,7 @@ export default function Servicos() {
           <div className="item-servico-desc">
             <h2>Projeto Estrutural</h2>
             <p>
-              é um projeto complementar ao arquitetônico cujo foco é o
+              É um projeto complementar ao arquitetônico cujo foco é o
               dimensionamento e detalhamento dos elementos estruturais (pilares,
               vigas, lajes).
             </p>
@@ -69,7 +69,7 @@ export default function Servicos() {
           <div className="item-servico-desc">
             <h2>Projeto Hidrosanitário</h2>
             <p>
-              inclui o Projeto Hidráulico e o Projeto Sanitário e abrange a
+              Inclui o Projeto Hidráulico e o Projeto Sanitário e abrange a
               concepção de toda a distribuição de água fria, água quente,
               esgoto, água pluvial, caixas de gordura e sistema de ventilação da
               edificação.

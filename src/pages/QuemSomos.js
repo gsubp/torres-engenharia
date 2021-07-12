@@ -44,13 +44,6 @@ export default function QuemSomos() {
           <h1>Valores</h1>
           <div className="valor-grid">
             <div className="item-valor">
-              <h2>Ética e Transparência</h2>
-              <p>
-                No âmbito das normas técnicas vigentes, focar na essência e
-                buscar sempre a melhor solução.
-              </p>
-            </div>
-            <div className="item-valor">
               <h2>Excelência e Qualidade</h2>
               <p>
                 Procuramos desenvolver o nosso trabalho de forma excelente e
@@ -65,6 +58,13 @@ export default function QuemSomos() {
                 Respeitamos o meio ambiente e assumimos o compromisso de
                 promover a sustentabilidade, aliando o empreendedorismo ao
                 desenvolvimento econômico, social e ambiental.
+              </p>
+            </div>
+            <div className="item-valor">
+              <h2>Ética e Transparência</h2>
+              <p>
+                No âmbito das normas técnicas vigentes, focar na essência e
+                buscar sempre a melhor solução.
               </p>
             </div>
             <div className="item-valor">

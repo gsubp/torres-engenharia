@@ -23,10 +23,33 @@ export default function Arquitetonico() {
             execução e promovê-la, o que é fundamental para garantir a qualidade
             do trabalho.
           </p>
-          <button className="btn">SOLICITE SEU ORÇAMENTO</button>
         </article>
-        <img src={arqImg} alt="" />
+        <img src={arqImg} alt="Projeto Arquitetônico" />
       </main>
+      <h2>Incluído em:</h2>
+      <article className="projeto-desc">
+        <div className="projeto-desc-item">
+          <h3>Projeto Arquitetônico Simples</h3>
+          <ul>
+            <li>Planta Baixa e Corte</li>
+            <li>Planta de Coberta</li>
+            <li>Planta de Situação e Locação</li>
+            <li>Fachada</li>
+            <li>Quadro de Especificações</li>
+            <li>Memórial Descritivo</li>
+          </ul>
+        </div>
+        <div className="projeto-desc-item">
+          <h3>Projeto Arquitetônico Completo</h3>
+          <ul>
+            <li>Projeto Arquitetônico Simples</li>
+            <li>Modelo 3D</li>
+            <li>Vistas Renderizadas</li>
+            <li>Videos com Perspectiva de Construção</li>
+          </ul>
+        </div>
+      </article>
+      <button className="btn">SOLICITE SEU ORÇAMENTO</button>
       <Footer />
     </div>
   );

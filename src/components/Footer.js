@@ -10,37 +10,9 @@ export default function Footer() {
     <footer>
       <div className="row-footer">
         <div className="footer-social">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/quem-somos">Quem Somos</Link>
-            </li>
-            <li>
-              <Link to="/servicos">Serviços</Link>
-            </li>
-            <li>
-              <Link to="/solucos">Soluções</Link>
-            </li>
-            <li>
-              <Link to="/portfolio">Portfólio</Link>
-            </li>
-            <li>
-              <Link to="/contato">Contato</Link>
-            </li>
-          </ul>
           <Link to="/">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="TORRES ENGENHARIA" />
           </Link>
-          <p>
-            Rua Antônio Luiz de Sá, 400,
-            <br />
-            Tancreado Neves, Serra Talhada - PE
-            <br />
-            56909-085
-            <br />
-          </p>
         </div>
         <div className="footer-func">
           <p>Horário de Funcionamento</p>
@@ -50,14 +22,20 @@ export default function Footer() {
         <div className="footer-contato">
           <p>Entre em Contato!</p>
           <div className="footer-icons">
-            <a href="">
-              <img src={whatsappIcon} alt="" />
+            <a href="mailto:contato@torresengenharia.com" target="foo">
+              <img src={mailIcon} alt="contato@torresengenharia.com" />
             </a>
-            <a href="">
-              <img src={mailIcon} alt="" />
+            <a
+              href="https://api.whatsapp.com/send?phone=5587998073764"
+              target="foo"
+            >
+              <img src={whatsappIcon} alt="87 998073764" />
             </a>
-            <a href="">
-              <img src={instagramIcon} alt="" />
+            <a
+              href="https://www.instagram.com/torresengenharialtda"
+              target="foo"
+            >
+              <img src={instagramIcon} alt="@torresengenharialtda" />
             </a>
           </div>
         </div>
@@ -65,7 +43,7 @@ export default function Footer() {
 
       <div className="hps">
         <span>Desenvolvido por</span>
-        <a href="https://www.instagram.com/hps.solucoes">
+        <a href="https://www.instagram.com/hps.solucoes" target="foo">
           HPS SOLUÇÕES DIGITAIS
         </a>
       </div>

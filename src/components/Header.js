@@ -16,7 +16,6 @@ export default function Header() {
         <Link to="/quem-somos">Quem Somos</Link>
         <Dropdown />
         <DropdownSolucoes />
-        <Link to="/portfolio">Portfólio</Link>
         <Link to="/contato">Contato</Link>
       </nav>
     </header>

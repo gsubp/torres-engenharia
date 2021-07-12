@@ -1,5 +1,5 @@
 .sobre {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -33,6 +33,7 @@
   h1 {
     width: 100%;
     border-bottom: 2px solid #00008b;
+    text-align: center;
   }
 
   p {
@@ -47,6 +48,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-top: 1rem;
 
   .missao {
     margin-right: 2rem;
@@ -59,11 +61,13 @@
   justify-content: center;
   align-items: center;
   padding: 0 5.85rem;
+  margin-top: 1rem;
 
   h1 {
     border-bottom: 2px solid #00008b;
     width: 100%;
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   .valor-grid {
@@ -75,6 +79,8 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      height: 100px;
+      margin-bottom: 2.6rem;
 
       h2 {
         margin-bottom: 0.25rem;
