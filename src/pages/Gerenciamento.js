@@ -10,18 +10,18 @@ export default function Gerenciamento() {
     <div className="container">
       <Header />
       <section className="projeto-section">
-        <img src={gerenciamentoIcon} alt="Projeto Hidrossanitário" />
+        <img src={gerenciamentoIcon} alt="Gerenciamento" />
         <h1>Gerenciamento</h1>
       </section>
       <main className="projeto-main">
         <article>
+          <img src={gerenciamentoImg} alt="Gerenciamento" />
           <p>
             Corresponde às atividades e ferramentas relacionadas com a gestão do
             tempo, recursos e pessoas para cumprir os horários de trabalho e as
             previsões financeiras, bem como cumprir a legislação aplicável.
           </p>
         </article>
-        <img src={gerenciamentoImg} alt="Projeto Hidrossanitáio" />
       </main>
       <p>
         O principal benefício da gestão da construção está relacionado ao seu

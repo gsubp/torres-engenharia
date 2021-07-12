@@ -15,6 +15,7 @@ export default function Hidrossanitario() {
       </section>
       <main className="projeto-main">
         <article>
+          <img src={hidroImg} alt="Projeto Hidrossanitáio" />
           <p>
             Projeta sistemas de distribuição de água quente e fria, coleta
             esgoto doméstico e descarga pluvial de edificações e especifica
@@ -23,7 +24,6 @@ export default function Hidrossanitario() {
             tamanho das tubulações.
           </p>
         </article>
-        <img src={hidroImg} alt="Projeto Hidrossanitáio" />
       </main>
       <h2>A entrega desse projeto inclui:</h2>
       <div className="projeto-desc">

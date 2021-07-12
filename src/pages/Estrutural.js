@@ -15,6 +15,7 @@ export default function Estrutural() {
       </section>
       <main className="projeto-main">
         <article>
+          <img src={estrutImg} alt="Projeto Estrutural" />
           <p>
             Em resumo, o projeto estrutural (também chamado de cálculo
             estrutural) é definido por um conjunto de informações sobre o
@@ -23,7 +24,6 @@ export default function Estrutural() {
             estruturas metálicas, pilares, fundação e alvenaria estrutural.
           </p>
         </article>
-        <img src={estrutImg} alt="" />
       </main>
       <h2>A entrega desse projeto inclui:</h2>
       <div className="projeto-desc">

@@ -21,7 +21,7 @@ export default function Dropdown() {
         <Link to="/servicos/gerenciamento">Gerenciamento</Link>
         <Link to="/servicos/laudo">Laudo Técnico</Link>
         <Link to="/servicos/acompanhamento">Acompanhamento de Obra</Link>
-        <Link to="/servicos/orçamento">Orçamento</Link>
+        <Link to="/servicos/orcamento">Orçamento</Link>
       </div>
     </div>
   );

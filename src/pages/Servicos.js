@@ -9,6 +9,7 @@ import incendioImg from "../images/incendio.png";
 import laudoImg from "../images/laudo.png";
 import orcamentoImg from "../images/orcamento.png";
 import sanitarioImg from "../images/sanitario.png";
+import acompanhamentoImg from "../images/acompanhamento.png";
 import "../styles/servicos.scss";
 
 export default function Servicos() {
@@ -22,7 +23,7 @@ export default function Servicos() {
       <div className="servicos-grid">
         <div className="item-servico">
           <div className="item-servico-icon">
-            <img src={arquitetonicoImg} alt="" />
+            <img src={arquitetonicoImg} alt="Projeto Arquitetônico" />
           </div>
           <div className="item-servico-desc">
             <h2>Projeto Arquitetônico</h2>
@@ -33,7 +34,7 @@ export default function Servicos() {
           </div>
         </div>
         <div className="item-servico">
-          <img src={eletricoImg} alt="" />
+          <img src={eletricoImg} alt="Projeto Elétrico" />
           <div className="item-servico-desc">
             <h2>Projeto Elétrico</h2>
             <p>
@@ -44,7 +45,7 @@ export default function Servicos() {
           </div>
         </div>
         <div className="item-servico">
-          <img src={estruturalImg} alt="" />
+          <img src={estruturalImg} alt="Projeto Estrutural" />
           <div className="item-servico-desc">
             <h2>Projeto Estrutural</h2>
             <p>
@@ -55,7 +56,10 @@ export default function Servicos() {
           </div>
         </div>
         <div className="item-servico">
-          <img src={incendioImg} alt="" />
+          <img
+            src={incendioImg}
+            alt="Projeto de Prevenção e Combate a Incêncio"
+          />
           <div className="item-servico-desc">
             <h2>Projeto de Prevenção e Combate a Incêncio</h2>
             <p>
@@ -65,7 +69,7 @@ export default function Servicos() {
           </div>
         </div>
         <div className="item-servico">
-          <img src={sanitarioImg} alt="" />
+          <img src={sanitarioImg} alt="Projeto Hidrosanitário" />
           <div className="item-servico-desc">
             <h2>Projeto Hidrosanitário</h2>
             <p>
@@ -77,7 +81,7 @@ export default function Servicos() {
           </div>
         </div>
         <div className="item-servico">
-          <img src={gerenciamentoImg} alt="" />
+          <img src={gerenciamentoImg} alt="Gerenciamento" />
           <div className="item-servico-desc">
             <h2>Gerenciamento</h2>
             <p>
@@ -87,7 +91,7 @@ export default function Servicos() {
           </div>
         </div>
         <div className="item-servico">
-          <img src={laudoImg} alt="" />
+          <img src={laudoImg} alt="Laudo Técnico" />
           <div className="item-servico-desc">
             <h2>Laudo Técnico</h2>
             <p>
@@ -98,7 +102,18 @@ export default function Servicos() {
           </div>
         </div>
         <div className="item-servico">
-          <img src={orcamentoImg} alt="" />
+          <img src={acompanhamentoImg} alt="Acompanhamanto" />
+          <div className="item-servico-desc">
+            <h2>Acompanhamento de Obra</h2>
+            <p>
+              Inclui atividades de verificação e acompanhamento durante a fase
+              de execução da obra, comparando o conteúdo da execução com os
+              respetivos projetos, apontando assim eventuais desvios.
+            </p>
+          </div>
+        </div>
+        <div className="item-servico">
+          <img src={orcamentoImg} alt="Orçamento" />
           <div className="item-servico-desc">
             <h2>Orçamento</h2>
             <p>

@@ -18,6 +18,10 @@ export default function Incendio() {
       </section>
       <main className="projeto-main">
         <article>
+          <img
+            src={incendioImg}
+            alt="Projeto de Prevenção e Combate a Incêndio"
+          />
           <p>
             O documento sistematiza e especifica os elementos necessários para
             garantir a segurança dos ocupantes e auxiliar no combate a
@@ -26,10 +30,6 @@ export default function Incendio() {
             incêndios em caso de incêndio precoce.
           </p>
         </article>
-        <img
-          src={incendioImg}
-          alt="Projeto de Prevenção e Combate a Incêndio"
-        />
       </main>
       <p>
         Através deste projeto são dimensionados os sistemas e equipamentos

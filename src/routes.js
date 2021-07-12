@@ -10,6 +10,9 @@ import Estrutural from "./pages/Estrutural";
 import Incendio from "./pages/Incendio";
 import Hidrossanitario from "./pages/Hidrossanitario";
 import Gerenciamento from "./pages/Gerenciamento";
+import Laudo from "./pages/Laudo";
+import Acompanhamento from "./pages/Acompanhamento";
+import Orcamento from "./pages/Orcamento";
 
 export default function Routes() {
   return (
@@ -24,6 +27,13 @@ export default function Routes() {
         <Route path="/servicos/estrutural" exact component={Estrutural} />
         <Route path="/servicos/incendio" exact component={Incendio} />
         <Route path="/servicos/gerenciamento" exact component={Gerenciamento} />
+        <Route path="/servicos/laudo" exact component={Laudo} />
+        <Route path="/servicos/orcamento" exact component={Orcamento} />
+        <Route
+          path="/servicos/acompanhamento"
+          exact
+          component={Acompanhamento}
+        />
         <Route
           path="/servicos/hidrossanitario"
           exact

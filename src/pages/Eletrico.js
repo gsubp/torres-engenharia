@@ -15,6 +15,7 @@ export default function Eletrico() {
       </section>
       <main className="projeto-main">
         <article>
+          <img src={eletImg} alt="Projeto Elétrico" />
           <p>
             Podemos definir um projeto elétrico como uma coleção de todas as
             informações, cálculos, desenhos e detalhes relacionados a
@@ -24,7 +25,6 @@ export default function Eletrico() {
             de peças ou equipamentos, listas de componentes instalados e outros.
           </p>
         </article>
-        <img src={eletImg} alt="" />
       </main>
       <h2>A Entrega desse projeto inclui:</h2>
       <div className="projeto-desc">

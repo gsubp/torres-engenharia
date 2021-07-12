@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/projeto.scss";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import arqImg from "../images/arquitetonico (4).jpg";
+import arqImg from "../assets/arquitetonico-img.png";
 import arqIcon from "../images/arquitetonico.png";
 
 export default function Arquitetonico() {
@@ -10,11 +10,12 @@ export default function Arquitetonico() {
     <div className="container">
       <Header />
       <section className="projeto-section">
-        <img src={arqIcon} alt="" />
+        <img src={arqIcon} alt="Projeto Arquitetônico" />
         <h1>Projeto Arquitetônico</h1>
       </section>
       <main className="projeto-main">
         <article>
+          <img src={arqImg} alt="Projeto Arquitetônico" />
           <p>
             É caracterizado por uma representação gráfica ou escrita dos
             conceitos previstos nas obras arquitetônicas, portanto, antecede
@@ -24,7 +25,6 @@ export default function Arquitetonico() {
             do trabalho.
           </p>
         </article>
-        <img src={arqImg} alt="Projeto Arquitetônico" />
       </main>
       <h2>Incluído em:</h2>
       <article className="projeto-desc">
