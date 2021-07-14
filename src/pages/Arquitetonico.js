@@ -26,7 +26,7 @@ export default function Arquitetonico() {
           </p>
         </article>
       </main>
-      <h2>Incluído em:</h2>
+      <h2>A entrega desse projeto é dividida em:</h2>
       <article className="projeto-desc">
         <div className="projeto-desc-item">
           <h3>Projeto Arquitetônico Simples</h3>

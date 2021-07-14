@@ -7,12 +7,14 @@ import logo from "../images/icon-white.png";
 
 export default function Header() {
   return (
-    <header>
+    <header className="header">
       <Link to="/">
         <img src={logo} alt="" className="logo" />
       </Link>
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/" className="title">
+          Home
+        </Link>
         <Link to="/quem-somos">Quem Somos</Link>
         <Dropdown />
         {/* <DropdownSolucoes /> */}

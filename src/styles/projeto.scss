@@ -4,25 +4,25 @@
   align-items: center;
   width: 100vw;
   background-color: #00008b;
-  padding: 9rem 4rem 4rem 4rem;
+  padding-top: 140px;
+  padding-bottom: 2rem;
   height: 100%;
 
   h1 {
     color: #fefefe;
-    font-size: 3.25rem;
     max-width: 800px;
     text-align: center;
   }
 
   img {
-    width: 6rem;
-    margin-right: 2rem;
-    border-radius: 100px;
+    width: 64px;
+    margin-right: 1rem;
+    border-radius: 100%;
   }
 }
 
 .projeto-main {
-  max-width: 1080px;
+  max-width: 1260px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -35,13 +35,11 @@
     justify-content: center;
     p {
       position: absolute;
-      color: #121213;
-      text-align: center;
       line-height: 2rem;
       font-size: 1.25rem;
       font-weight: bold;
       letter-spacing: 4px;
-      text-align: center;
+      text-align: justify;
       color: #fefefe;
       width: 720px;
     }
@@ -59,13 +57,7 @@
   justify-content: center;
   align-items: flex-start;
   margin-top: 2rem;
-  max-width: 1080px;
-}
-
-p {
-  max-width: 1080px;
-  margin-bottom: 1rem;
-  font-size: 0.8rem;
+  max-width: 1260px;
 }
 
 .projeto-desc-item {
@@ -84,9 +76,6 @@ p {
   ul {
     list-style: square;
     margin-bottom: 2rem;
-  }
-  li {
-    font-size: 1rem;
   }
 
   li + li {

@@ -1,19 +1,18 @@
-header {
+.header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   z-index: 100;
-  padding: 16px 48px;
+  padding: 24px 48px;
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.45) 0%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0) 100%
   );
-  border-bottom: 2px solid #fefefe;
 
   .logo {
     width: 4rem;
@@ -27,7 +26,8 @@ header {
     a {
       color: #fefefe;
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 400;
+      font-size: 1.15rem;
       margin-right: 2rem;
     }
     > a:hover {
@@ -35,7 +35,8 @@ header {
       padding: 0.75rem;
       color: #00008b;
       transition: all ease-in 0.35s;
-      font-size: 1.25rem;
+      font-size: 1.45rem;
+      font-weight: bold;
     }
   }
 }

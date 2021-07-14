@@ -21,7 +21,7 @@ export default function QuemSomos() {
       <main className="main-content">
         <div className="article-content">
           <article className="missao">
-            <h1>Missão</h1>
+            <h2>Missão</h2>
             <p>
               Com uma atitude séria, objetiva e dedicada, oferecemos soluções
               inteligentes que superam as expectativas dos clientes na área de
@@ -31,7 +31,7 @@ export default function QuemSomos() {
             </p>
           </article>
           <article className="visao">
-            <h1>Visão</h1>
+            <h2>Visão</h2>
             <p>
               Tornar-se referência de mercado em tecnologia, competência, ética
               e sustentabilidade no fornecimento de componentes de concreto,
@@ -41,10 +41,10 @@ export default function QuemSomos() {
           </article>
         </div>
         <article className="valores">
-          <h1>Valores</h1>
+          <h2>Valores</h2>
           <div className="valor-grid">
             <div className="item-valor">
-              <h2>Excelência e Qualidade</h2>
+              <h3>Excelência e Qualidade</h3>
               <p>
                 Procuramos desenvolver o nosso trabalho de forma excelente e
                 promover o crescimento pessoal contínuo e a qualificação
@@ -53,7 +53,7 @@ export default function QuemSomos() {
               </p>
             </div>
             <div className="item-valor">
-              <h2>Responsabilidade Ambiental</h2>
+              <h3>Responsabilidade Ambiental</h3>
               <p>
                 Respeitamos o meio ambiente e assumimos o compromisso de
                 promover a sustentabilidade, aliando o empreendedorismo ao
@@ -61,14 +61,14 @@ export default function QuemSomos() {
               </p>
             </div>
             <div className="item-valor">
-              <h2>Ética e Transparência</h2>
+              <h3>Ética e Transparência</h3>
               <p>
                 No âmbito das normas técnicas vigentes, focar na essência e
                 buscar sempre a melhor solução.
               </p>
             </div>
             <div className="item-valor">
-              <h2>Saúde e Segurança</h2>
+              <h3>Saúde e Segurança</h3>
               <p>
                 Segurança e bem estar, são valores indispensáveis no ambiente de
                 trabalho.

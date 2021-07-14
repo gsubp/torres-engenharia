@@ -21,16 +21,16 @@ body {
 
   h2 {
     font-family: "Raleway", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     text-transform: uppercase;
   }
 
   h3 {
     font-family: "Raleway", sans-serif;
-    font-size: 1.05rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
   }
@@ -41,18 +41,18 @@ body {
   strong,
   li {
     font-family: "Poppins", sans-serif;
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 400;
     letter-spacing: 2px;
+    line-height: 1.2rem;
   }
 }
 
 .btn {
   font-family: "Raleway", sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 1rem;
-  border: none;
+  font-size: 1.45rem;
+  font-weight: bold;
+  padding: 12px;
   color: #00008b;
   background-color: #fefefe;
   border: 2px solid #00008b;
