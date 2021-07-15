@@ -35,8 +35,11 @@ body {
     text-transform: uppercase;
   }
 
+  a {
+    font-family: "Poppins", sans-serif;
+  }
+
   p,
-  a,
   span,
   strong,
   li {
@@ -53,9 +56,9 @@ body {
   font-size: 1.45rem;
   font-weight: bold;
   padding: 12px;
-  color: #00008b;
+  color: #091540;
   background-color: #fefefe;
-  border: 2px solid #00008b;
+  border: 2px solid #091540;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -65,7 +68,7 @@ body {
 
 .btn:hover {
   color: #fefefe;
-  background-color: #00008b;
+  background-color: #091540;
   transition: ease all 0.35s;
 }
 
