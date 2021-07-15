@@ -14,9 +14,6 @@ export default function Social() {
       <a href="mailto:contato@torresengenharia.com" target="foo">
         <img src={Mail} alt="contato@torresengenharia.com" />
       </a>
-      <a href="https://api.whatsapp.com/send?phone=5587998073764" target="foo">
-        <img src={Whatsapp} alt="87 998073764" />
-      </a>
       <a href="https://www.instagram.com/torresengenharialtda" target="foo">
         <img src={Instagram} alt="@torresengenharialtda" />
       </a>

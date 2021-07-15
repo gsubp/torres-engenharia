@@ -1,14 +1,18 @@
 import React from "react";
-import FloatingWhatsApp from "react-floating-whatsapp";
-import "react-floating-whatsapp/dist/index.css";
+import whatsIcon from "../assets/whatsapp.png";
+import "../styles/float-button.scss";
 
 export default function WhatsappFloatButton() {
   return (
-    <FloatingWhatsApp
-      phoneNumber="5587998073764"
-      accountName="Torres Engenharia"
-      statusMessage="Geralmente responde em 10 minutos"
-      chatMessage="Ola, podemos ajudar em algo?"
-    />
+    <div className="float-button">
+      <span>Fale Conosco!</span>
+      <a
+        href="https://api.whatsapp.com/send?phone=5587998073764"
+        target="foo"
+        className="button-img"
+      >
+        <img src={whatsIcon} alt="Whatsapp" />
+      </a>
+    </div>
   );
 }
