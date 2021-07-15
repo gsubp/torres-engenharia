@@ -24,11 +24,16 @@
 .projeto-main {
   max-width: 1080px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  p {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 800px;
+  }
   article {
     display: flex;
     align-items: center;
@@ -57,7 +62,7 @@
   justify-content: center;
   align-items: flex-start;
   margin-top: 2rem;
-  max-width: 1260px;
+  max-width: 1080px;
 }
 
 .projeto-desc-item {

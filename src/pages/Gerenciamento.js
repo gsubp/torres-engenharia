@@ -22,19 +22,19 @@ export default function Gerenciamento() {
             previsões financeiras, bem como cumprir a legislação aplicável.
           </p>
         </article>
+        <p>
+          O principal benefício da gestão da construção está relacionado ao seu
+          controle geral, onde o plano é seguido fielmente para economizar
+          recursos e cumprir prazos no menor tempo possível. Desta forma, o
+          cliente tem garantia de execução garantida e, portanto, sua
+          confiabilidade.
+        </p>
+        <p>
+          Os serviços de gestão envolvem a preparação de estudos de viabilidade,
+          orçamentos, cronogramas, coleta de documentos necessários, contratação
+          de fornecedores, acompanhamento de obra, etc.
+        </p>
       </main>
-      <p>
-        O principal benefício da gestão da construção está relacionado ao seu
-        controle geral, onde o plano é seguido fielmente para economizar
-        recursos e cumprir prazos no menor tempo possível. Desta forma, o
-        cliente tem garantia de execução garantida e, portanto, sua
-        confiabilidade.
-      </p>
-      <p>
-        Os serviços de gestão envolvem a preparação de estudos de viabilidade,
-        orçamentos, cronogramas, coleta de documentos necessários, contratação
-        de fornecedores, acompanhamento de obra, etc.
-      </p>
       <button className="btn">Solicite seu Orçamento</button>
       <Footer />
     </div>
