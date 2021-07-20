@@ -80,6 +80,12 @@ export default function Contato() {
             </div>
           </div>
         </section>
+        <div className="hps-home">
+          <span>Desenvolvido por</span>
+          <a href="https://www.instagram.com/hps.solucoes" target="foo">
+            HPS SOLUÇÕES DIGITAIS
+          </a>
+        </div>
       </main>
     </div>
   );
