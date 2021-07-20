@@ -20,21 +20,19 @@
   }
 
   .dropbtn:hover {
-    background-color: #fefefe;
-    padding: 0.75rem;
-    color: #091540;
+    color: #fefefe;
     transition: all ease-in 0.35s;
 
     a {
-      color: #091540;
+      color: #fefefe;
       font-size: 1.25rem;
       font-weight: bold;
       transition: all ease-in 0.35s;
     }
 
     img {
-      filter: invert(17%) sepia(37%) saturate(6620%) hue-rotate(237deg)
-        brightness(67%) contrast(140%);
+      filter: invert(100%) sepia(0%) saturate(4911%) hue-rotate(124deg)
+        brightness(122%) contrast(110%);
     }
   }
 }

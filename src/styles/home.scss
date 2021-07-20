@@ -2,18 +2,23 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  display: block;
+}
 
-  .bg-video {
-    width: 100vw;
-    size: cover;
-    position: fixed;
-    top: 0;
+.hps-home {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  font-size: 0.75rem;
+  z-index: 100;
+
+  span {
+    color: #fefefe;
   }
-
-  > img {
-    position: absolute;
-    height: 50vh;
-    right: 20%;
-    top: 25%;
+  a {
+    margin-left: 0.25rem;
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: bold;
   }
 }

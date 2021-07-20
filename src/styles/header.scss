@@ -2,41 +2,44 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   z-index: 100;
   padding: 24px 48px;
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.65) 0%,
     rgba(0, 0, 0, 0) 100%
   );
 
-  .logo {
-    width: 4rem;
-  }
-
   nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    max-width: 1080px;
 
-    a {
-      color: #fefefe;
-      text-decoration: none;
-      font-weight: 400;
-      font-size: 1rem;
-      margin-right: 2rem;
+    .logo {
+      width: 6rem;
     }
-    > a:hover {
-      background-color: #fefefe;
-      padding: 0.5rem;
-      color: #091540;
-      transition: all ease-in 0.35s;
-      font-size: 1.25rem;
-      font-weight: bold;
+
+    .nav-links {
+      padding-bottom: 2rem;
+      a {
+        color: #fefefe;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 0.85rem;
+        margin-right: 2rem;
+      }
+      > a:hover {
+        color: #fefefe;
+        transition: all ease-in 0.35s;
+        font-size: 1.25rem;
+        font-weight: bold;
+      }
     }
   }
 }

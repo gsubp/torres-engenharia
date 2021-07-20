@@ -13,13 +13,22 @@ export default function Footer() {
           <Link to="/">
             <img src={Logo} alt="TORRES ENGENHARIA" />
           </Link>
+          <span>
+            Rua Antônio Luiz de Sá, 400,
+            <br />
+            Tancreado Neves, Serra Talhada - PE
+            <br />
+            56909-085
+            <br />
+            87 99807-3764
+          </span>
         </div>
         <div className="footer-func">
           <p>Horário de Funcionamento</p>
           <span>De Segunda à Sexta-feira</span>
           <span>Das 08h as 18h</span>
         </div>
-        <div className="footer-contato">
+        {/* <div className="footer-contato">
           <p>Entre em Contato!</p>
           <div className="footer-icons">
             <a href="mailto:contato@torresengenharia.com" target="foo">
@@ -38,7 +47,7 @@ export default function Footer() {
               <img src={instagramIcon} alt="@torresengenharialtda" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="hps">
