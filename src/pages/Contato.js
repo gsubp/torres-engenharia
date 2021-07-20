@@ -1,8 +1,9 @@
 import React from "react";
-import instagramIcon from "../assets/instagram.svg";
-import mailIcon from "../assets/mail.svg";
-import mapIcon from "../assets/map.svg";
-import whatsappIcon from "../assets/whatsapp.svg";
+import facebookIcon from "../assets/facebook.png";
+import mailIcon from "../assets/gmail.png";
+import instagramIcon from "../assets/instagram.png";
+import twitterIcon from "../assets/twitter.png";
+import youtubeIcon from "../assets/youtube.png";
 import Footer from "../components/Footer";
 import "../styles/contato.scss";
 import Header from "./../components/Header";
@@ -30,7 +31,6 @@ export default function Contato() {
               <li>
                 <a href="mailto:contato@torresengenharia.com" target="foo">
                   <img src={mailIcon} />
-                  contato@torresengenharia.com
                 </a>
               </li>
               <li>
@@ -39,7 +39,24 @@ export default function Contato() {
                   target="foo"
                 >
                   <img src={instagramIcon} />
-                  @torresengenharialtda
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/Torresengenharialtda"
+                  target="foo"
+                >
+                  <img src={facebookIcon} />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" target="foo">
+                  <img src={twitterIcon} />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com" target="foo">
+                  <img src={youtubeIcon} />
                 </a>
               </li>
             </ul>

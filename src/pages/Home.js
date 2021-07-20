@@ -1,17 +1,14 @@
 import React from "react";
-import logoAltImg from "../assets/logo-alt-white.png";
 import Video2 from "../assets/video2.mp4";
-import Social from "../components/FloatSocial";
 import Header from "../components/Header";
-import hpsLogoImg from "../assets/hps-logo.png";
 import "../styles/home.scss";
-import Slide from "./../components/Slide";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <main className="home">
       <Header />
-      {/* <video
+      <video
         className="bg-video"
         loop={true}
         muted={true}
@@ -20,8 +17,17 @@ export default function Home() {
         disablePictureInPicture={true}
       >
         <source src={Video2} type="video/mp4" />
-      </video> */}
-      <Slide />
+      </video>
+      <div className="home-content">
+        <h1>Torres Engenharia</h1>
+        <p>
+          Somos uma empresa de Engenharia civil, buscando sempre o melhor para
+          suas necessidades.
+        </p>
+        <button>
+          <Link to="/quem-somos">SAIBA MAIS</Link>
+        </button>
+      </div>
       <div className="hps-home">
         <span>Desenvolvido por</span>
         <a href="https://www.instagram.com/hps.solucoes" target="foo">

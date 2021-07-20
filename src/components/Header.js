@@ -17,8 +17,9 @@ export default function Header() {
             Home
           </Link>
           <Link to="/quem-somos">Quem Somos</Link>
+          <Link to="/">Portfólio</Link>
           <Dropdown />
-          {/* <DropdownSolucoes /> */}
+          <DropdownSolucoes />
           <Link to="/contato">Contato</Link>
         </div>
       </nav>

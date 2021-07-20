@@ -10,14 +10,6 @@ import "../styles/slide.scss";
 export default function Slide() {
   return (
     <div className="slide-container">
-      <div className="home-content">
-        <h1>Torres Engenharia</h1>
-        <p>
-          Somos uma empresa de Engenharia civil, buscando sempre o melhor para
-          suas necessidades.
-        </p>
-        <button>SAIBA MAIS</button>
-      </div>
       <Fade arrows={false}>
         <div className="each-fade">
           <div className="image-container">

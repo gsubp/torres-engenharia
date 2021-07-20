@@ -2,7 +2,20 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  display: block;
+
+  .bg-video {
+    width: 100vw;
+    size: cover;
+    position: fixed;
+    top: 0;
+  }
+
+  > img {
+    position: absolute;
+    height: 50vh;
+    right: 20%;
+    top: 25%;
+  }
 }
 
 .hps-home {
@@ -20,5 +33,55 @@
     text-decoration: none;
     color: #fefefe;
     font-weight: bold;
+  }
+}
+
+.home-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in 0.5s;
+  background: none;
+
+  h1,
+  p {
+    color: #fefefe;
+  }
+
+  p {
+    margin-top: 1rem;
+    width: 360px;
+    text-align: center;
+  }
+
+  button {
+    background: none;
+    border: 2px solid #fefefe;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+
+    a {
+      text-decoration: none;
+      color: #fefefe;
+    }
+  }
+
+  button:hover {
+    background-color: #fefefe;
+    transition: all ease-in 0.35s;
+
+    a {
+      color: #091540;
+      transition: all ease-in 0.35s;
+    }
   }
 }
