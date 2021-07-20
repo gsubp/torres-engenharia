@@ -18,16 +18,6 @@ export default function Home() {
       >
         <source src={Video2} type="video/mp4" />
       </video>
-      <div className="home-content">
-        <h1>Torres Engenharia</h1>
-        <p>
-          Somos uma empresa de Engenharia civil, buscando sempre o melhor para
-          suas necessidades.
-        </p>
-        <button>
-          <Link to="/quem-somos">SAIBA MAIS</Link>
-        </button>
-      </div>
       <div className="hps-home">
         <span>Desenvolvido por</span>
         <a href="https://www.instagram.com/hps.solucoes" target="foo">
