@@ -4,7 +4,7 @@ import mailIcon from "../assets/gmail.png";
 import instagramIcon from "../assets/instagram.png";
 import twitterIcon from "../assets/twitter.png";
 import youtubeIcon from "../assets/youtube.png";
-import Footer from "../components/Footer";
+import mapIcon from "../assets/map-pin.png";
 import "../styles/contato.scss";
 import Header from "./../components/Header";
 export default function Contato() {
@@ -13,7 +13,11 @@ export default function Contato() {
       <main className="contato">
         <Header />
         <section className="contato-section">
-          <h1>FALE CONOSCO</h1>
+          <h2 className="title h2">FALE CONOSCO</h2>
+          <p className="text">
+            Para entrar em contato, preencha o formulário ou visite nossas redes
+            sociais:
+          </p>
           <div className="main-content">
             <div className="contato-message">
               <form>
@@ -25,8 +29,12 @@ export default function Contato() {
               </form>
             </div>
             <div className="contato-info">
-              <div className="contato-text-header"></div>
               <ul>
+                <li>
+                  <a href="https://goo.gl/maps/ZVWxDLNoq33KHskv6" target="foo">
+                    <img src={mapIcon} />
+                  </a>
+                </li>
                 <li>
                   <a href="mailto:contato@torresengenharia.com" target="foo">
                     <img src={mailIcon} />
@@ -62,21 +70,10 @@ export default function Contato() {
             </div>
           </div>
           <div className="contato-footer">
-            <div className="contato-endereco">
-              <span>
-                Rua Antônio Luiz de Sá, 400,
-                <br />
-                Tancreado Neves, Serra Talhada - PE
-                <br />
-                56909-085
-                <br />
-                87 99807-3764
-              </span>
-            </div>
             <div className="contato-func">
-              <p>Horário de Funcionamento</p>
-              <span>De Segunda à Sexta-feira</span>
-              <span>Das 08h as 18h</span>
+              <p className="text">Horário de Funcionamento</p>
+              <span className="text">De Segunda à Sexta-feira</span>
+              <span className="text">Das 08h as 18h</span>
             </div>
           </div>
         </section>

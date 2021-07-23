@@ -1,74 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Raleway:wght@500;700&display=swap");
+
+$primary-color: #091540;
+$secondary-color: #fefefe;
+$font-color: #0b090a;
+$bg-transparent: #2525259d;
+$box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+
+$raleway-font-family: "Raleway", sans-serif;
+
+$max-width-desktop: 980px;
+
 * {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  color: #03071e;
+  color: $font-color;
+}
+
+.title {
+  font-family: $raleway-font-family;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.h1 {
+  font-size: 2.25rem;
+  letter-spacing: 4px;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.h3 {
+  font-size: 1rem;
+}
+
+.text {
+  font-size: 0.67rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
 }
 
 body {
-  background: #fefefe;
+  background: $secondary-color;
   -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-  }
-
-  h2 {
-    font-family: "Raleway", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-  }
-
-  h3 {
-    font-family: "Raleway", sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-  }
-
-  a {
-    font-family: "Poppins", sans-serif;
-  }
-
-  p,
-  span,
-  strong,
-  li {
-    font-family: "Poppins", sans-serif;
-    font-size: 0.75rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.2rem;
-  }
 }
 
 .btn {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.45rem;
+  font-family: $raleway-font-family;
+  font-size: 1.25rem;
   font-weight: bold;
-  padding: 12px;
-  color: #091540;
-  background-color: #fefefe;
-  border: 2px solid #091540;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  padding: 8px 12px;
+  color: $primary-color;
+  background-color: $secondary-color;
+  box-shadow: $box-shadow;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  border: none;
 }
 
 .btn:hover {
-  color: #fefefe;
-  background-color: #091540;
+  color: $secondary-color;
+  background-color: $primary-color;
   transition: ease all 0.35s;
 }
 
@@ -76,6 +77,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100vw;
 }

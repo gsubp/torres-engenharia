@@ -13,9 +13,7 @@ export default function Header() {
           <img src={logo} alt="" className="logo" />
         </Link>
         <div className="nav-links">
-          <Link to="/" className="title">
-            Home
-          </Link>
+          <Link to="/">Home</Link>
           <Link to="/quem-somos">Quem Somos</Link>
           <Link to="/">Portfólio</Link>
           <Dropdown />

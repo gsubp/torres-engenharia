@@ -5,7 +5,7 @@ import "../styles/float-button.scss";
 export default function WhatsappFloatButton() {
   return (
     <div className="float-button">
-      <span>Fale Conosco!</span>
+      <span>Olá, Fale Conosco!</span>
       <a
         href="https://api.whatsapp.com/send?phone=5587998073764"
         target="foo"

@@ -1,56 +1,87 @@
+@import "global";
+
 .sobre {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #091540;
-  padding-top: 140px;
-  padding-bottom: 2rem;
+  background-image: url("../assets/img (1).jpg");
 
-  h1 {
-    color: #fefefe;
-    margin-bottom: 2rem;
-  }
+  div {
+    padding-bottom: 2rem;
+    padding-top: 140px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-transparent;
 
-  p {
-    color: #e8e8e8;
-    width: 80%;
-    max-width: 1080px;
-    line-height: 2rem;
-    text-align: justify;
-    margin-bottom: 2rem;
+    > h1 {
+      color: $secondary-color;
+      margin-bottom: 1rem;
+    }
   }
 }
 
 .main-content {
-  max-width: 1080px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
 
-  h2 {
-    width: 100%;
-    border-bottom: 2px solid #091540;
-    text-align: center;
-  }
-
+.desc {
+  background-color: #25293a;
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
   p {
-    height: 120px;
-    margin-top: 0.85rem;
+    width: 50%;
+    text-align: center;
+    color: $secondary-color;
+
+    span {
+      font-weight: bold;
+      color: $secondary-color;
+    }
   }
 }
 
-.article-content {
+.section-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  width: 100%;
+
+  section {
+    padding: 1rem 4rem;
+    text-align: center;
+    border: none;
+    height: 160px;
+    flex: 1;
+
+    p,
+    h2 {
+      color: $secondary-color;
+    }
+
+    h2 {
+      margin-bottom: 0.75rem;
+    }
+  }
 
   .missao {
-    margin-right: 2rem;
+    background-color: #3d4667;
+  }
+
+  .visao {
+    background-color: #141d3e;
   }
 }
 
@@ -59,29 +90,42 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: 1rem 4rem;
+  height: 100%;
+  border: none;
+  background-color: #71778d;
+  width: 100%;
 
   h2 {
-    border-bottom: 2px solid #091540;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
+    color: $secondary-color;
   }
 
   .valor-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
 
     .item-valor {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      height: 100px;
-      margin-bottom: 2.6rem;
+      padding: 0.75rem;
+      text-align: center;
+      border-bottom: 2px solid $secondary-color;
+      width: 400px;
+      border-radius: 10%;
+
+      h3,
+      p {
+        color: $secondary-color;
+      }
 
       h3 {
-        margin-bottom: 0.25rem;
-        text-align: center;
+        margin-bottom: 0.65rem;
       }
     }
   }
