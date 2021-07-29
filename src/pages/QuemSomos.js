@@ -2,6 +2,9 @@ import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../styles/quem-somos.scss";
+import missaoImg from "../assets/hands.jpg";
+import visaoImg from "../assets/visao.jpg";
+import valoresImg from "../assets/valores.jpg";
 
 export default function QuemSomos() {
   return (
@@ -9,23 +12,24 @@ export default function QuemSomos() {
       <Header />
       <section className="sobre">
         <div>
-          <h1 className="title h1">Quem Somos</h1>
+          <h1 className="title h1">Sobra a torres engenharia</h1>
         </div>
       </section>
       <main className="main-content">
         <div className="desc">
           <p className="text">
-            <span className="text">A TORRES ENGENHARIA</span> foi idealizada e
-            vem se desenvolvendo sobre pilares que se tornaram premissas para
-            todos os envolvidos, como a valorização da equipe, rígidos
-            princípios éticos e morais, atendimento ágil na busca por soluções.
-            A qualidade dos serviços prestados pela empresa está baseada no
-            atendimento personalizado, na participação efetiva dos sócios na
-            execução do trabalho e na compreensão dos clientes.
+            <b>A TORRES ENGENHARIA</b> foi idealizada e vem se desenvolvendo
+            sobre pilares que se tornaram premissas para todos os envolvidos,
+            como a valorização da equipe, rígidos princípios éticos e morais,
+            atendimento ágil na busca por soluções. A qualidade dos serviços
+            prestados pela empresa está baseada no atendimento personalizado, na
+            participação efetiva dos sócios na execução do trabalho e na
+            compreensão dos clientes.
           </p>
         </div>
         <div className="section-content">
           <section className="missao">
+            <img src={missaoImg} alt="Missão" />
             <h2 className="title h2">Missão</h2>
             <p className="text">
               Com uma atitude séria, objetiva e dedicada, oferecemos soluções
@@ -36,6 +40,7 @@ export default function QuemSomos() {
             </p>
           </section>
           <section className="visao">
+            <img src={visaoImg} alt="Visão" />
             <h2 className="title h2">Visão</h2>
             <p className="text">
               Tornar-se referência de mercado em tecnologia, competência, ética
@@ -46,6 +51,7 @@ export default function QuemSomos() {
           </section>
         </div>
         <section className="valores">
+          <img src={valoresImg} alt="Missão" />
           <h2 className="title h2">Valores</h2>
           <div className="valor-grid">
             <div className="item-valor">
