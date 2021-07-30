@@ -14,7 +14,7 @@ export default function Header() {
         </Link>
         <div className="nav-links">
           <Link to="/">Home</Link>
-          <Link to="/quem-somos">Quem Somos</Link>
+          <Link to="/sobre">Sobre a Torres</Link>
           <Link to="/">Portfólio</Link>
           <Dropdown />
           <DropdownSolucoes />
