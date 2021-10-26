@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/projeto.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import hidroImg from "../assets/hidrossanitario-img.png";
+import Footer from "../components/Footer";
 import hidroIcon from "../images/sanitario.png";
+import "../styles/projeto.scss";
 
 export default function Hidrossanitario() {
   return (
     <div className="container">
-      <Header />
       <section className="projeto-section">
         <img src={hidroIcon} alt="Projeto Hidrossanitário" />
         <h1>Projeto Hidrossanitário</h1>

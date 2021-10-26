@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/projeto.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import gerenciamentoImg from "../assets/gerenciamento-img.png";
+import Footer from "../components/Footer";
 import gerenciamentoIcon from "../images/gerenciamento.png";
+import "../styles/projeto.scss";
 
 export default function Gerenciamento() {
   return (
     <div className="container">
-      <Header />
       <section className="projeto-section">
         <img src={gerenciamentoIcon} alt="Gerenciamento" />
         <h1>Gerenciamento</h1>

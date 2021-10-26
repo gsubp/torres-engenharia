@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/projeto.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import arqImg from "../assets/arquitetonico-img.png";
+import Footer from "../components/Footer";
 import arqIcon from "../images/arquitetonico.png";
+import "../styles/projeto.scss";
 
 export default function Arquitetonico() {
   return (
     <div className="container">
-      <Header />
       <section className="projeto-section">
         <img src={arqIcon} alt="Projeto Arquitetônico" />
         <h1>Projeto Arquitetônico</h1>

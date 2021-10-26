@@ -1,10 +1,12 @@
+@import "global";
+
 footer {
-  background-color: #091540;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $primary-color;
 
   .row-footer {
     width: 100%;
@@ -91,7 +93,6 @@ footer {
 .hps {
   text-align: center;
   padding: 1rem;
-  background-color: #091540;
   border-top: 1px solid #fefefe;
   padding: 0.5rem;
   width: 100%;

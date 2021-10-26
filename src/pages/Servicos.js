@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import acompanhamentoImg from "../images/acompanhamento.png";
 import arquitetonicoImg from "../images/arquitetonico.png";
 import eletricoImg from "../images/eletrico.png";
 import estruturalImg from "../images/estrutural.png";
@@ -9,13 +9,11 @@ import incendioImg from "../images/incendio.png";
 import laudoImg from "../images/laudo.png";
 import orcamentoImg from "../images/orcamento.png";
 import sanitarioImg from "../images/sanitario.png";
-import acompanhamentoImg from "../images/acompanhamento.png";
 import "../styles/servicos.scss";
 
 export default function Servicos() {
   return (
     <div className="container">
-      <Header />
       <section className="servicos">
         <h1>CONHEÇA NOSSOS SERVIÇOS</h1>
         <p>Procuramos entregar os melhores serviços para suas necessidades.</p>

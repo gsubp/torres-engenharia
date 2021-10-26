@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/projeto.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import acompanhamentoImg from "../assets/acompanhamento-img.png";
+import Footer from "../components/Footer";
 import acompanhamentoIcon from "../images/acompanhamento.png";
+import "../styles/projeto.scss";
 
 export default function Acompanhamento() {
   return (
     <div className="container">
-      <Header />
       <section className="projeto-section">
         <img src={acompanhamentoIcon} alt="Acompanhamento de Obra" />
         <h1>Acompanhamento de Obra</h1>

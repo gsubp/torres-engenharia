@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/projeto.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import estrutImg from "../assets/estrutural-img.png";
+import Footer from "../components/Footer";
 import estrutIcon from "../images/estrutural.png";
+import "../styles/projeto.scss";
 
 export default function Estrutural() {
   return (
     <div className="container">
-      <Header />
       <section className="projeto-section">
         <img src={estrutIcon} alt="Projeto Estrutural" />
         <h1>Projeto Estrutural</h1>

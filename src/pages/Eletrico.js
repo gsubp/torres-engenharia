@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/projeto.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import eletImg from "../assets/eletrico-img.png";
+import Footer from "../components/Footer";
 import eletIcon from "../images/eletrico.png";
+import "../styles/projeto.scss";
 
 export default function Eletrico() {
   return (
     <div className="container">
-      <Header />
       <section className="projeto-section">
         <img src={eletIcon} alt="Projeto Elétrico" />
         <h1>Projeto Elétrico</h1>

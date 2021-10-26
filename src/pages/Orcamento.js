@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/projeto.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import orcamentoImg from "../assets/orcamento-img.png";
+import Footer from "../components/Footer";
 import orcamentoIcon from "../images/orcamento.png";
+import "../styles/projeto.scss";
 
 export default function Orcamento() {
   return (
     <div className="container">
-      <Header />
       <section className="projeto-section">
         <img src={orcamentoIcon} alt="Orçamento" />
         <h1>Orçamento</h1>

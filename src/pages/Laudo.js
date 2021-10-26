@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/projeto.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import laudoImg from "../assets/laudo-img.png";
+import Footer from "../components/Footer";
 import laudoIcon from "../images/laudo.png";
+import "../styles/projeto.scss";
 
 export default function Laudo() {
   return (
     <div className="container">
-      <Header />
       <section className="projeto-section">
         <img src={laudoIcon} alt="Laudo Técnico" />
         <h1>Laudo Técnico</h1>

@@ -2,16 +2,14 @@ import React from "react";
 import facebookIcon from "../assets/facebook.png";
 import mailIcon from "../assets/gmail.png";
 import instagramIcon from "../assets/instagram.png";
+import mapIcon from "../assets/map-pin.png";
 import twitterIcon from "../assets/twitter.png";
 import youtubeIcon from "../assets/youtube.png";
-import mapIcon from "../assets/map-pin.png";
 import "../styles/contato.scss";
-import Header from "./../components/Header";
 export default function Contato() {
   return (
     <div className="container">
       <main className="contato">
-        <Header />
         <section className="contato-section">
           <h2 className="title h2">FALE CONOSCO</h2>
           <p className="text">

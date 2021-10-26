@@ -1,22 +1,24 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Contato from "./pages/Contato";
-import Home from "./pages/Home";
-import QuemSomos from "./pages/QuemSomos";
-import Servicos from "./pages/Servicos";
+import Header from "./components/Header";
+import Acompanhamento from "./pages/Acompanhamento";
 import Arquitetonico from "./pages/Arquitetonico";
+import Contato from "./pages/Contato";
 import Eletrico from "./pages/Eletrico";
 import Estrutural from "./pages/Estrutural";
-import Incendio from "./pages/Incendio";
-import Hidrossanitario from "./pages/Hidrossanitario";
 import Gerenciamento from "./pages/Gerenciamento";
+import Hidrossanitario from "./pages/Hidrossanitario";
+import Home from "./pages/Home";
+import Incendio from "./pages/Incendio";
 import Laudo from "./pages/Laudo";
-import Acompanhamento from "./pages/Acompanhamento";
 import Orcamento from "./pages/Orcamento";
+import QuemSomos from "./pages/QuemSomos";
+import Servicos from "./pages/Servicos";
 
 export default function Routes() {
   return (
     <BrowserRouter>
+      <Header/>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/sobre" exact component={QuemSomos} />

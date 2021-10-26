@@ -1,11 +1,9 @@
 import React from "react";
 import Video2 from "../assets/video2.mp4";
-import Header from "../components/Header";
 import "../styles/home.scss";
 export default function Home() {
   return (
     <main className="home">
-      <Header />
       <video
         className="bg-video"
         loop={true}

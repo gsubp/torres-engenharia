@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/projeto.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import incendioImg from "../assets/incendio-img.png";
+import Footer from "../components/Footer";
 import incendioIcon from "../images/incendio.png";
+import "../styles/projeto.scss";
 
 export default function Incendio() {
   return (
     <div className="container">
-      <Header />
       <section className="projeto-section">
         <img
           src={incendioIcon}
