@@ -5,16 +5,26 @@ import "../styles/quem-somos.scss";
 import missaoImg from "../assets/hands.jpg";
 import visaoImg from "../assets/visao.jpg";
 import valoresImg from "../assets/valores.jpg";
+import { bounce } from 'react-animations';
+import { StyleSheet, css } from 'aphrodite';
+
+ 
+
 
 export default function QuemSomos() {
+  const styles = StyleSheet.create({
+    bounce: {
+      animationName: bounce,
+      animationDuration: '1s'
+    }
+  })
   return (
     <div className="container">
-
       <div className="container">
-        <section className="sobre">
+        <section className="sobre" style={styles.bounce}>
           <div>
-            <h1 className="title h1">Sobre a torres</h1>
-            <p className="text">
+            <h1 className="title h1 fade-in">Sobre a torres</h1>
+            <p className="text fade-in">
               Modernidade,  independência  e  dinamismo  são  os  três  pilares  que  hoje  formam  a
               Torres  Engenharia, idealizada  com  a  proposta  de  revitalizar  a
               Engenharia Civil e Arquitetura em Serra Talhada - PE, que há três anos atua de forma
@@ -25,7 +35,7 @@ export default function QuemSomos() {
             </p>
           </div>
         </section>
-        <div className="section-content">
+        <div className="section-content fade-in">
           <section className="missao">
             <img src={missaoImg} alt="Missão" />
             <h2 className="title h2">Missão</h2>
