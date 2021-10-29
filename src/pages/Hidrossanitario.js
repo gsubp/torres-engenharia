@@ -6,7 +6,7 @@ import "../styles/projeto.scss";
 
 export default function Hidrossanitario() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <section className="projeto-section">
         <img src={hidroIcon} alt="Projeto Hidrossanitário" />
         <h1>Projeto Hidrossanitário</h1>

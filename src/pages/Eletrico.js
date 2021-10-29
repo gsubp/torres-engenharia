@@ -6,7 +6,7 @@ import "../styles/projeto.scss";
 
 export default function Eletrico() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <section className="projeto-section">
         <img src={eletIcon} alt="Projeto Elétrico" />
         <h1>Projeto Elétrico</h1>

@@ -6,13 +6,13 @@ import "../styles/projeto.scss";
 
 export default function Acompanhamento() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <section className="projeto-section">
         <img src={acompanhamentoIcon} alt="Acompanhamento de Obra" />
         <h1>Acompanhamento de Obra</h1>
       </section>
       <main className="projeto-main">
-        <article>
+        <article className="fade-in">
           <img src={acompanhamentoImg} alt="Acompanhamento de Obra" />
           <p>
             Inclui atividades de verificação e acompanhamento durante a fase de

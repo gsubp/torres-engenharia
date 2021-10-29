@@ -6,7 +6,7 @@ import "../styles/projeto.scss";
 
 export default function Estrutural() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <section className="projeto-section">
         <img src={estrutIcon} alt="Projeto Estrutural" />
         <h1>Projeto Estrutural</h1>

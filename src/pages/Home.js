@@ -3,7 +3,7 @@ import Video2 from "../assets/video2.mp4";
 import "../styles/home.scss";
 export default function Home() {
   return (
-    <main className="home">
+    <main className="home fade-in">
       <video
         className="bg-video"
         loop={true}

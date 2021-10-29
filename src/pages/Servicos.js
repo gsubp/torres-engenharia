@@ -13,7 +13,7 @@ import "../styles/servicos.scss";
 
 export default function Servicos() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <section className="servicos">
         <h1>CONHEÇA NOSSOS SERVIÇOS</h1>
         <p>Procuramos entregar os melhores serviços para suas necessidades.</p>

@@ -6,7 +6,7 @@ import "../styles/projeto.scss";
 
 export default function Laudo() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <section className="projeto-section">
         <img src={laudoIcon} alt="Laudo Técnico" />
         <h1>Laudo Técnico</h1>

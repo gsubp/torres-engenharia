@@ -6,7 +6,7 @@ import "../styles/projeto.scss";
 
 export default function Arquitetonico() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <section className="projeto-section">
         <img src={arqIcon} alt="Projeto Arquitetônico" />
         <h1>Projeto Arquitetônico</h1>

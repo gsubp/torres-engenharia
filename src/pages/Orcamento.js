@@ -6,7 +6,7 @@ import "../styles/projeto.scss";
 
 export default function Orcamento() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <section className="projeto-section">
         <img src={orcamentoIcon} alt="Orçamento" />
         <h1>Orçamento</h1>

@@ -6,7 +6,7 @@ import missaoImg from "../assets/hands.jpg";
 import visaoImg from "../assets/visao.jpg";
 import valoresImg from "../assets/valores.jpg";
 import { bounce } from 'react-animations';
-import { StyleSheet, css } from 'aphrodite';
+import { StyleSheet } from 'aphrodite';
 
  
 

@@ -6,7 +6,7 @@ import "../styles/projeto.scss";
 
 export default function Gerenciamento() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <section className="projeto-section">
         <img src={gerenciamentoIcon} alt="Gerenciamento" />
         <h1>Gerenciamento</h1>

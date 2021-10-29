@@ -8,7 +8,7 @@ import youtubeIcon from "../assets/youtube.png";
 import "../styles/contato.scss";
 export default function Contato() {
   return (
-    <div className="container">
+    <div className="container fade-in">
       <main className="contato">
         <section className="contato-section">
           <h2 className="title h2">FALE CONOSCO</h2>
